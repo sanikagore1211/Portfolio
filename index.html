@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanika Gore Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sanika Gore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle btn btn-primary text-white px-3" href="#" id="socialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Social
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="socialDropdown" style="background: #232946; color: #fff; min-width: 180px;">
+              <li><a class="dropdown-item d-flex align-items-center" href="https://github.com/sanikagore1211" target="_blank"><i class="bi bi-github me-2"></i> GitHub</a></li>
+              <li><a class="dropdown-item d-flex align-items-center" href="https://www.linkedin.com/in/sanika-gore/" target="_blank"><i class="bi bi-linkedin me-2"></i> LinkedIn</a></li>
+              <li><a class="dropdown-item d-flex align-items-center" href="https://www.instagram.com/sanika_gore1203/" target="_blank"><i class="bi bi-instagram me-2"></i> Instagram</a></li>
+            </ul>
+          </li>
+          <li class="nav-item d-flex align-items-center ms-2">
+            <button id="theme-toggle" class="btn btn-dark rounded-circle p-2" title="Toggle dark mode" style="font-size: 1.2rem;"><i class="bi bi-moon"></i></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center" style="min-height: 80vh; background: radial-gradient(circle at 20% 20%, #232946 60%, #121629 100%); color: #fff;">
+    <div class="container">
+      <div class="row align-items-center flex-column-reverse flex-md-row">
+        <div class="col-md-7 text-center text-md-start">
+          <p class="mb-1" style="color: #b8c1ec; font-size: 1.2rem;">Hi, I am</p>
+          <h1 class="display-1 fw-bold mb-2" style="letter-spacing: -2px;">Sanika Gore</h1>
+          <h3 class="mb-3" style="color: #b8c1ec;">Computer Science Engineer</h3>
+          <div class="d-flex flex-wrap gap-3 mb-4 justify-content-center justify-content-md-start">
+            <a href="SANIKA_GORE_RESUME.pdf" class="btn btn-light btn-lg fw-bold px-4" target="_blank">Resume</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg fw-bold px-4">Hire Me</a>
+            <a href="https://github.com/sanikagore1211" class="btn btn-dark btn-lg px-3" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/sanika-gore/" class="btn btn-dark btn-lg px-3" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/sanika_gore1203/" class="btn btn-dark btn-lg px-3" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-5 text-center mb-4 mb-md-0">
+          <div style="display: inline-block; background: #232946; border-radius: 50%; box-shadow: 0 8px 32px rgba(0,0,0,0.3); padding: 1rem;">
+            <img src="profile_pic.jpg" alt="Sanika Gore" style="width: 320px; height: 320px; object-fit: cover; border-radius: 50%; border: 6px solid #b8c1ec;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Education Section (Two-Column, Anchor-Friendly) -->
+  <section class="py-5" style="background: transparent;">
+    <div class="container">
+      <div class="row g-4 align-items-stretch">
+        <!-- About Card -->
+        <div class="col-md-6" id="about">
+          <div class="card h-100 shadow-sm p-4" style="background: #232946; color: #fff; border-radius: 20px;">
+            <div class="d-flex align-items-center mb-3">
+              <span class="me-2" style="font-size: 2rem; color: #3a86ff;"><i class="bi bi-bullseye"></i></span>
+              <h2 class="mb-0" style="color: #3a86ff; letter-spacing: 1px;">OBJECTIVE</h2>
+            </div>
+            <p style="font-size: 1.15rem; color: #b8c1ec;">Aspiring to contribute to innovative projects and deliver meaningful results by utilizing my technical skills and collaborating with a dynamic team.</p>
+          </div>
+        </div>
+        <!-- Education Card -->
+        <div class="col-md-6" id="education">
+          <div class="card h-100 shadow-sm p-4" style="background: #181a2a; color: #fff; border-radius: 20px;">
+            <h2 class="mb-4" style="color: #3a86ff; letter-spacing: 1px;">EDUCATION</h2>
+            <div class="timeline">
+              <div class="timeline-item mb-4">
+                <div class="d-flex align-items-center mb-2">
+                  <span class="me-2" style="font-size: 1.5rem; color: #3a86ff;"><i class="bi bi-mortarboard-fill"></i></span>
+                  <span class="badge rounded-pill bg-primary me-2">2022–2026</span>
+                  <span class="fw-bold">B.Tech in Computer Science and Engineering</span>
+                </div>
+                <div style="margin-left: 2.5rem; color: #b8c1ec;">
+                  Shivaji University, Kolhapur | TKIET, Warananagar<br>
+                  CGPA: 8.88
+                </div>
+              </div>
+              <div class="timeline-item mb-4">
+                <div class="d-flex align-items-center mb-2">
+                  <span class="me-2" style="font-size: 1.5rem; color: #43d9ad;"><i class="bi bi-house-door-fill"></i></span>
+                  <span class="badge rounded-pill bg-success me-2">2020–2022</span>
+                  <span class="fw-bold">Higher Secondary Certificate [HSC]</span>
+                </div>
+                <div style="margin-left: 2.5rem; color: #b8c1ec;">
+                  MSBSHSE, Pune | R. K. Jr. college, Gadhinglaj<br>
+                  Percentage: 75.17%
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="d-flex align-items-center mb-2">
+                  <span class="me-2" style="font-size: 1.5rem; color: #ffd60a;"><i class="bi bi-award-fill"></i></span>
+                  <span class="badge rounded-pill bg-warning text-dark me-2">2019–2020</span>
+                  <span class="fw-bold">Secondary School Certificate [SSC]</span>
+                </div>
+                <div style="margin-left: 2.5rem; color: #b8c1ec;">
+                  MSBSHSE, Pune | D. V. Hasurwadi, Gadhinglaj<br>
+                  Percentage: 91.40%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">QuickLaw</h5>
+              <p class="card-text">A legal information platform (details from README needed). Provides quick access to legal resources and tools for users.</p>
+              <a href="https://github.com/sanikagore1211/QuickLaw" class="github-btn mt-auto" target="_blank"><i class="bi bi-github"></i>View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">HostelHub</h5>
+              <p class="card-text">A digital hostel management system for girls, featuring student profile management, fee tracking, entry/exit monitoring, and complaint submission to improve security and convenience.</p>
+              <a href="https://github.com/sanikagore1211/HostelHub" class="github-btn mt-auto" target="_blank"><i class="bi bi-github"></i>View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Scheduling Algorithm Simulation</h5>
+              <p class="card-text">A project to simulate CPU scheduling algorithms such as FCFS, SJF, and Round Robin, helping to visualize and compare their behavior and efficiency.</p>
+              <a href="https://github.com/sanikagore1211/Scheduling-Algorithm" class="github-btn mt-auto" target="_blank"><i class="bi bi-github"></i>View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">DSA</h5>
+              <p class="card-text">A collection of Data Structures and Algorithms implementations and problems. Useful for coding interviews and practice.</p>
+              <a href="https://github.com/sanikagore1211/DSA" class="github-btn mt-auto" target="_blank"><i class="bi bi-github"></i>View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Footwear</h5>
+              <p class="card-text">A project focused on designing the frontend of a footwear website, showcasing products and a modern user interface.</p>
+              <a href="https://github.com/sanikagore1211/footwear" class="github-btn mt-auto" target="_blank"><i class="bi bi-github"></i>View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">House Price Prediction</h5>
+              <p class="card-text">A machine learning project (details from README needed). Predicts house prices using various features and ML models.</p>
+              <a href="https://github.com/sanikagore1211/houHouse_price_prediction" class="github-btn mt-auto" target="_blank"><i class="bi bi-github"></i>View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more project cards here as needed -->
+      </div>
+    </div>
+  </section>
+  <div class="text-center my-4">
+    <a href="https://github.com/sanikagore1211" class="github-btn" target="_blank">
+      <i class="bi bi-github"></i> See All Projects on GitHub
+    </a>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5" style="background: transparent;">
+    <div class="container">
+      <div class="row g-4 align-items-stretch">
+        <!-- Contact Form Card -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm p-4" style="background: #232946; color: #fff; border-radius: 20px;">
+            <h2 class="mb-3">Contact Form</h2>
+            <p style="color: #b8c1ec;">Please contact me directly at <a href="mailto:sanikavgore2020@gmail.com" style="color: #3a86ff;">sanikavgore2020@gmail.com</a> or drop your info here.</p>
+            <form action="https://formspree.io/f/xzzvdzbn" method="POST">
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="name" class="form-label">Full name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required style="background: #181a2a; color: #fff; border: 1px solid #3a86ff;">
+                </div>
+                <div class="col">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required style="background: #181a2a; color: #fff; border: 1px solid #3a86ff;">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="What's this about?" required style="background: #181a2a; color: #fff; border: 1px solid #3a86ff;">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell me about your project," required style="background: #181a2a; color: #fff; border: 1px solid #3a86ff;"></textarea>
+              </div>
+              <div class="mb-3" style="color: #b8c1ec; font-size: 0.95rem;">
+                I'll never share your data with anyone else. Pinky promise!
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg w-100 fw-bold" style="background: #3a86ff; border: none;">Send Message <i class="bi bi-arrow-right ms-2"></i></button>
+            </form>
+          </div>
+        </div>
+        <!-- Thank You Card -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm p-4 text-center" style="background: #181a2a; color: #fff; border-radius: 20px;">
+            <img src="https://slidechef.net/wp-content/uploads/2024/06/Futuristic-Thank-You.jpg" alt="Thank You" style="width: 80%; max-width: 320px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 2rem; border-radius: 1rem; background: #232946;" />
+            <h3 class="mb-3" style="color: #3a86ff;">Thank You!</h3>
+            <p style="color: #b8c1ec;">I appreciate you taking the time to reach out. I'll get back to you as soon as possible!</p>
+            <ul class="list-unstyled text-start mx-auto" style="max-width: 320px; color: #b8c1ec;">
+              <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Quick response guaranteed</li>
+              <li class="mb-2"><i class="bi bi-shield-lock-fill text-info me-2"></i> Your data is secure</li>
+              <li><i class="bi bi-clock-fill text-warning me-2"></i> Usually respond within 24 hours</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-light">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <div class="mb-2 mb-md-0">&copy; 2024 Sanika Gore. All rights reserved.</div>
+      <div>
+        <a href="https://github.com/sanikagore1211" class="text-light me-3" target="_blank"><i class="bi bi-github" style="font-size: 1.5rem;"></i></a>
+        <a href="https://www.linkedin.com/in/sanika-gore/" class="text-light me-3" target="_blank"><i class="bi bi-linkedin" style="font-size: 1.5rem;"></i></a>
+        <a href="https://www.instagram.com/sanika_gore1203/" class="text-light" target="_blank"><i class="bi bi-instagram" style="font-size: 1.5rem;"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html> 
